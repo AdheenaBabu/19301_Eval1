@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recommendation SYSTEM "form.dtd">
+<recommendation>
+    <recommender prefix="Mr">
+        <firstname>Sam</firstname>
+        <lastname>T</lastname>
+        <organization>Amrita University</organization>
+        <title>Associate Professor</title>
+        <relation>Associate Professor</relation>
+        <phone>99999999</phone>
+        <email>sam@gmail.com</email>
+        <academic>Upper 50%</academic>
+        <intellectual>Upper 25%</intellectual>
+        <express>Upper 1 to 2%</express>
+        <motivation>Upper 10%</motivation>
+        <admit>No</admit>
+        <sign>Sam T</sign>
+    </recommender>
+</recommendation>

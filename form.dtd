@@ -1,0 +1,16 @@
+<!ELEMENT recommendation (recommender*)>
+<!ELEMENT recommender (firstname, lastname, organization, title, relation, phone, email, academic, intellectual, express, motivation, admit, sign)>
+<!ATTLIST recommender prefix (Dr|Mr|Ms|Mrs) #REQUIRED>
+<!ELEMENT firstname (#PCDATA) #REQUIRED>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT organization (#PCDATA) #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT relation (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT academic (#PCDATA)>
+<!ELEMENT intellectual (#PCDATA)>
+<!ELEMENT express (#PCDATA)>
+<!ELEMENT motivation (#PCDATA)>
+<!ELEMENT admit(#PCDATA)>
+<!ELEMENT sign (#PCDATA) #REQUIRED>
